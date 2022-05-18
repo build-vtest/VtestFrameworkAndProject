@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Testing - Functional" parallel="tests" thread-count="2">
+	<test name="VtestAutomation" parallel="classes"
+		thread-count="05">
+
+		<parameter name="nodeIp" value="localhost" />
+		<parameter name="nodePort" value="5555" />
+		<parameter name="driverType" value="chrome" />
+		
+		<classes>
+		 <class name="com.vtest.tests.ConactusTest"/>
+
+		      
+	  </classes>
+	</test>
+	
+
+</suite>
+			
+				
+		
+			
+				
+		
+			
+			
+		
+			
+				
+		
+			
+				
+		
+			
+				
+		
+			
+				
+		
+			
+				
+		
+	

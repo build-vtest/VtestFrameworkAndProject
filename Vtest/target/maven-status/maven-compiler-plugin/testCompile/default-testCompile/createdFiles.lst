@@ -1,0 +1,5 @@
+com\vtest\tests\SampleTest.class
+com\vtest\pageObjects\ContactusPO.class
+com\vtest\tests\BaseLeadTest.class
+com\vtest\dataObjects\ContactusDO.class
+com\vtest\constants\PageConstant.class
